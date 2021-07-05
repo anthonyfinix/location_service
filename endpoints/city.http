@@ -1,0 +1,10 @@
+GET http://localhost:3005/city
+
+
+###
+POST http://localhost:3005/city
+Content-Type: application/json
+
+{
+    "name": "faridabad"
+}

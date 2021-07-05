@@ -1,0 +1,10 @@
+GET http://localhost:3005/country
+
+
+###
+POST http://localhost:3005/country
+Content-Type: application/json
+
+{
+    "name": "india"
+}
